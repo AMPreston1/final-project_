@@ -62,7 +62,7 @@ nav a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   display: block;
   margin: 20px auto;
@@ -77,11 +77,38 @@ a:link {
 }
 
 a:visited {
-  color: navy;
+  color: yellow;
   text-decoration: none;
 }
 
 a:hover {
-  color: yellow;
+  color: navy;
   text-decoration: underline;
+}
+
+a:active {
+  color: #f2f0e6;
+  text-decoration: underline;
+}
+
+.navbar a {
+  color: #103a27;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+
+  height: 1px;
+
+  margin: -1px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  clip: rect(0, 0, 0, 0);
+
+  border: 0;
 }
